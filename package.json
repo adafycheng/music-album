@@ -1,0 +1,12 @@
+{
+  "name": "music-album",
+  "version": "1.0.0",
+  "description": "Music Album",
+  "author": "adafycheng",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "jsdom": "^19.0.0"
+  }
+}

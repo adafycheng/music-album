@@ -1,0 +1,16 @@
+#song {
+    height: 100%;
+    width: 80%;
+}
+
+#song a {
+    color: rgb(219, 33, 148);
+}
+
+h2 {
+    color: rgb(219, 33, 148);
+}
+
+#view-video {
+    width: 3em;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+    /*background-image: url("../images/hknight.png");*/
+    color: #fff;
+    margin: 0;
+}
+
+section {
+    color: #fff;
+    height: calc(100vh);
+    padding: 1.5em 0 0 0;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+}
+
+.intro {
+    height: 100%;
+}
+
+.intro h1,
+.intro h2 {
+    padding: 0.5em;
+}
+
+.introName {
+    color: rgb(219, 33, 148);
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.navbar-brand:hover,
+.navbar-light a.navbar-brand:visited {
+    color: rgb(219, 33, 148);
+    font-weight: bold;
+}
