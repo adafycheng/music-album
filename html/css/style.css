@@ -37,3 +37,20 @@ section {
     color: rgb(219, 33, 148);
     font-weight: bold;
 }
+
+.nav-link {
+    color: rgba(219, 33, 148);
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.nav-link:hover,
+a.nav-link:active {
+    color: rgba(219, 33, 148);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(219, 33, 148);
+}

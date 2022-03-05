@@ -50,26 +50,26 @@ function findBySongName(searchName) {
         heading.appendChild(headingText);
         dom.window.document.querySelector("article").appendChild(heading);
 
-        var content = createIntroRow(dom, '填詞：', lyricist);
+        var content = createIntroRow(dom, '填詞 / Lyricist：', lyricist);
         dom.window.document.querySelector("article").appendChild(content);
     
         if (composer) {
-            content = createIntroRow(dom, '作曲：', composer, false);
+            content = createIntroRow(dom, '作曲 / Composer：', composer, false);
             dom.window.document.querySelector("article").appendChild(content);
         }
 
         if (arrangement) {
-            content = createIntroRow(dom, '編曲：', arrangement, false);
+            content = createIntroRow(dom, '編曲 / Arranged by：', arrangement, false);
             dom.window.document.querySelector("article").appendChild(content);
         }
 
         if (producer) {
-            content = createIntroRow(dom, '監製：', producer, false);
+            content = createIntroRow(dom, '監製 / Producer：', producer, false);
             dom.window.document.querySelector("article").appendChild(content);
         }
 
         if (artist) {
-            content = createIntroRow(dom, '原唱：', artist, false);
+            content = createIntroRow(dom, '原唱 / Artist：', artist, false);
             dom.window.document.querySelector("article").appendChild(content);
         }
         
