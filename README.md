@@ -2,10 +2,12 @@
 
 > Build a Web Site listing my favourite song using node.js.
 
+![Music Album Web Site Screenshot](images/music-album-vercel.png)
+
 ## Live Demo
 
 Available at the following hosting platforms:
-1. Node.js hosted at [Netlify](https://music.adafycheng.dev) (custom domain can be added freely).
+1. Node.js hosted at [Vercel](https://music-album-liart.vercel.app)
 
 ## Development
 
@@ -30,6 +32,25 @@ Available at the following hosting platforms:
     ```sh
     http://localhost:3000
     ```
-   
 
+## Deployment
 
+1. To deploy serverless function in Vercel, add a vercel.json in root directory of the project.
+
+    ```json
+    {
+     "version": 2,
+     "name": "music-album",
+     "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+     ],
+     "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+     ]
+    }
+    ```
+
+2. Commit the source code to GitHub.
+
+3. Create a project in Vercel.  Configure the project by importing the GitHub project.
+4. Deploy the project.
