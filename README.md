@@ -53,4 +53,10 @@ Available at the following hosting platforms:
 2. Commit the source code to GitHub.
 
 3. Create a project in Vercel.  Configure the project by importing the GitHub project.
+
 4. Deploy the project.
+
+
+## Acknowledgements
+
+1. [Deploy Node.js application to Vercel in 5 minutes](https://blog.adafycheng.dev/deploy-nodejs-application-to-vercel-in-5-minutes).
