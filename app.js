@@ -40,7 +40,7 @@ function findBySongName(searchName) {
 
             // 2. Read Template File
             const templHtml = readTemplateFile('song.templ.html');
-            logDebugMessage('templHtml: ' + templHtml));
+            logDebugMessage('templHtml: ' + templHtml);
 
             // 3. Construct the HTML using the Template File
             var dom = new JSDOM(templHtml);
