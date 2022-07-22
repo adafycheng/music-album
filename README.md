@@ -11,24 +11,37 @@ Available at the following hosting platforms:
 
 ## Development
 
-1. Install the libraries.
+1. Create `package.json` file.
 
-    ```bash
-    npm install --save js-yaml`
+```json
+{
+   "name": "music-album",
+   "version": "1.0.0",
+   "description": "Music Album",
+   "author": "adafycheng",
+   "license": "MIT",
+   "private": true,
+   "main": "app.js",
+   "dependencies": {
+      "js-yaml": "^4.1.0",
+      "jsdom": "^19.0.0"
+   },
+   "scripts": {
+      "start": "node app.js"
+   }
+}
+```
 
-    npm install jsdom`
+2. Install the packages by running `npm update`.  Note that `package-lock.json` is automatically created.
 
-    npm install bootstrap`
-    ```
+3. Create source code /app.js.
 
-2. Modify source code /src/app.js.
-
-3. Start the application locally.
+4. Start the application locally.
     ```sh
     node app.js
     ```
 
-4. Verify by opening the following URL in broswer.
+5. Verify by opening the following URL in broswer.
     ```sh
     http://localhost:3000
     ```
